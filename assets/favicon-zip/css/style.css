@@ -207,6 +207,53 @@ hr {
     line-height: 0;
 }
 
+#signup {
+    background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    display: flex;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form>h2 {
+    /* This will override the heading color set in general styles */
+    color: #fafafa;
+    margin-bottom: 20px;
+
+}
+
+#signup-form {
+    background-color: rgba(60, 60, 60, .6);
+    color: #ffffff;
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
 /* footer */
 #social-networks {
     text-align: center;
