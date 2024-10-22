@@ -27,6 +27,11 @@ h3 {
     color: #252525;
 }
 
+/* This will hide the heading from the browser but will be availabe to the search engine */
+.hidden-heading {
+    display: none;
+}
+
 /* header */
 header {
     background-color: #ffffff;
